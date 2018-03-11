@@ -58,12 +58,25 @@ Dependency Installed:
 
 Complete!
 
+Change the password for user oracle
+
+`# passwd oracle`
 
 Determine the distribution and version of Linux installed
 
 `# cat /etc/oracle-release`
 
 >Oracle Linux Server release 7.4
+
+
+Install wget
+
+`# yum install -y wget'
+
+Download and install jdk
+
+`# rpm -ivh jdk-8u162-linux-x64.rpm`
+
 
 Download Oracle software from OTN
 

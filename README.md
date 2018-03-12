@@ -73,6 +73,15 @@ Install wget
 
 `# yum install -y wget'
 
+
+Install some useful things
+
+`# rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm`
+`# yum install -y screen htop collectl rlwrap p7zip unzip sysstat perf iotop`
+`# cd /etc/yum.repos.d/`
+`# wget http://download.opensuse.org/repositories/shells:fish:release:2/CentOS_7/shells:fish:release:2.repo`
+`# yum install fish`
+
 Download and install jdk
 
 `# rpm -ivh jdk-8u162-linux-x64.rpm`
@@ -181,6 +190,76 @@ restart the VM
 
 `# reboot`
 
+
+Chek Oracle versions Etc..
+
+[oracle@localhost ~]$ sqlplus SYS/oracle as sysdba
+
+SQL> set lines 200
+SQL> select * from v$version;
+SQL> select instance_name from v$instance;
+`SQL> select con_id, name, open_mode from v$pdbs;`
+
+ 
+ Install Oracle Golden Gate
+ 
+ cd /tmp
+ Download Oracle GG software
+ unzip the file
+ 
+ Build a response file (e.g. /tmp/oggcore.rsp)
+ 
+ oracle.install.responseFileVersion=/oracle/install/rspfmt_ogginstall_response_schema_v12_1_2
+INSTALL_OPTION=ORA12c
+SOFTWARE_LOCATION=/u01/app/ogg
+START_MANAGER=true
+MANAGER_PORT=7809
+DATABASE_LOCATION=/u01/app/oracle/product/12.2/db_1/
+INVENTORY_LOCATION=/u01/app/oraInventorygg/
+UNIX_GROUP_NAME=oinstall
+
+Insall OGG
+
+fbo_ggs_Linux_x64_shiphome/Disk1/runInstaller -silent -nowait -responseFile /tmp/oggcore.rsp
+
+Press enter to get the command prompt
+
+Check that OGG Manager is running
+
+------
+
+Configure DB for OGG
+
+-----
+
+Configure OGG Extract
+
+-----
+
+Smoketest
+
+----
+
+Install OGG-BD
+
+
+Install Confluent Platform
+
+--
+
+Configure & Smoke Test OGG-Kafka Connect → Kafka
+Configure for OGG-BD Kafka Connect handler
+
+----
+
+Smoke test OGG -- Kafka Connect --> Kafka
+
+------
+
+
+
+ 
+ 
  
  
 

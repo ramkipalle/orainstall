@@ -105,6 +105,13 @@ Change the user to oracle
 
 cd to database directory and run ./runInstall to install oracle. Make sure the X11 forwarding is enabled in Putty.
 
+Ueful links to setup putty with proxy and X11
+
+https://www.vscentrum.be/client/windows/putty-proxy
+
+https://gist.github.com/Rillke/e2ceb88529aef1ae03f7f1c06c8376a2
+
+
 Once the installation is complete, add the following enntries to .bash_profile in oracle home directory (/home/oracle)
 
 # Oracle Settings

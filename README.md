@@ -114,6 +114,8 @@ https://gist.github.com/Rillke/e2ceb88529aef1ae03f7f1c06c8376a2
 
 Once the installation is complete, add the following enntries to .bash_profile in oracle home directory (/home/oracle)
 
+link https://pierreforstmanndotcom.wordpress.com/2013/06/27/how-to-install-oracle-12-1-in-silent-mode/
+
 # Oracle Settings
 export TMP=/tmp
 export TMPDIR=$TMP
@@ -143,6 +145,7 @@ If not, run the following to change it.
 `SQL> alter database open;`
  
  
+link:  https://docs.microsoft.com/en-us/azure/virtual-machines/workloads/oracle/oracle-database-quick-create
  
  To set up the Oracle database to start automatically, first sign in as root. Then, create and update some system files.
  
@@ -197,6 +200,8 @@ restart the VM
 
 `# reboot`
 
+
+link https://rmoff.net/2017/11/21/installing-oracle-goldengate-for-big-data-12-3-1-with-kafka-connect-and-confluent-platform/
 
 Chek Oracle versions Etc..
 

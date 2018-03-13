@@ -97,6 +97,7 @@ cd to database directory and run ./runInstall to install oracle. Make sure the X
 
 ![oracle install](/images/oracle_install.PNG)
 
+![oracle install](/images/change_ownership.PNG)
 
 ----------
 

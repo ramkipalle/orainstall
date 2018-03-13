@@ -29,7 +29,7 @@ Change the password for user oracle
 
 Install wget
 
-`# yum install -y wget'
+`# yum install -y wget`
 
 
 Install some useful things

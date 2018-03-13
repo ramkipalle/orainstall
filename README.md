@@ -35,9 +35,13 @@ Install wget
 Install some useful things
 
 `# rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm`
+
 `# yum install -y screen htop collectl rlwrap p7zip unzip sysstat perf iotop`
+
 `# cd /etc/yum.repos.d/`
+
 `# wget http://download.opensuse.org/repositories/shells:fish:release:2/CentOS_7/shells:fish:release:2.repo`
+
 `# yum install fish`
 
 `# yum install -y  jq`

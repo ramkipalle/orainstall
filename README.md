@@ -95,6 +95,8 @@ https://gist.github.com/Rillke/e2ceb88529aef1ae03f7f1c06c8376a2
 
 cd to database directory and run ./runInstall to install oracle. Make sure the X11 forwarding is enabled in Putty.
 
+![change password](/images/oracle_install.PNG)
+
 
 ----------
 

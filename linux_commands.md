@@ -37,3 +37,11 @@ Determine the system architecture
 
 `# uname -m`
 >x86_64
+
+Determine the distribution and version of Linux installed
+
+`# cat /etc/oracle-release`
+
+>Oracle Linux Server release 7.4
+
+

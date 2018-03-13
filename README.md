@@ -82,6 +82,8 @@ Install some useful things
 `# wget http://download.opensuse.org/repositories/shells:fish:release:2/CentOS_7/shells:fish:release:2.repo`
 `# yum install fish`
 
+`# yum install -y  jq`
+
 Download and install jdk
 
 `# rpm -ivh jdk-8u162-linux-x64.rpm`
@@ -129,6 +131,9 @@ export ORACLE_SID=orcl12c
 export PATH=/usr/sbin:$PATH
 export PATH=$ORACLE_HOME/bin:$PATH
 
+# Java Settings
+export JAVA_HOME=/usr/java/jdk1.8.0_162/
+export LD_LIBRARY_PATH=/u01/app/oracle/product/12.2/db_1/lib:/usr/java/jdk1.8.0_162/jre/lib/amd64/server/
 
 login to sqlplus
 

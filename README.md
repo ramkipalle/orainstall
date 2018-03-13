@@ -99,6 +99,10 @@ cd to database directory and run ./runInstall to install oracle. Make sure the X
 
 ![oracle install](/images/change_ownership.PNG)
 
+Change the settings during installation
+
+![oracle install](/images/oracle_settings.PNG)
+
 ----------
 
 Once the installation is complete, add the following enntries to .bash_profile in oracle home directory (/home/oracle)

@@ -145,14 +145,16 @@ login to sqlplus
 
 `$ rlwrap sqlplus sys/oracle as sysdba`
 
-Make sure the orcl pdb has read,write as the value for open_mode
+Make sure the orcl pdb has *read,write* as the value for open_mode
 
 `SQL> set lines 200`
+
 `SQL> select con_id, name, open_mode from v$pdbs;`
 
 If not, run the following to change it.
 
-`SQL> alter session set container=pdb1;`
+`SQL> alter session set container=orcl;`
+
 `SQL> alter database open;`
  
  
@@ -164,7 +166,7 @@ link:  https://docs.microsoft.com/en-us/azure/virtual-machines/workloads/oracle/
  
  `cdb1:/u01/app/oracle/product/12.1.0/dbhome_1:Y`
  
- 
+ -------
  Create a file named /etc/init.d/dbora and paste the following contents:
  
 #!/bin/sh
@@ -194,6 +196,7 @@ case "$1" in
     ;;
 esac
 
+----------------
 
 Change permissions on files with chmod as follows:
 

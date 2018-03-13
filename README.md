@@ -101,7 +101,7 @@ cd to database directory and run ./runInstall to install oracle. Make sure the X
 
 Change the settings during installation
 
-![oracle install](/images/oracle_install2.PNG)
+![oracle install](/images/oracle_settings.PNG)
 
 ![oracle install](/images/oracle_install3.PNG)
 

@@ -95,15 +95,17 @@ https://gist.github.com/Rillke/e2ceb88529aef1ae03f7f1c06c8376a2
 
 cd to database directory and run ./runInstall to install oracle. Make sure the X11 forwarding is enabled in Putty.
 
-![oracle install](/images/oracle_install.PNG)
+![oracle install](/images/oracle_install1.PNG)
 
 ![oracle install](/images/change_ownership.PNG)
 
 Change the settings during installation
 
-![oracle install](/images/oracle_settings1.PNG)
+![oracle install](/images/oracle_install2.PNG)
 
-![oracle install](/images/oracle_settings2.PNG)
+![oracle install](/images/oracle_install3.PNG)
+
+![oracle install](/images/oracle_install4.PNG)
 
 
 ----------

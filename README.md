@@ -42,7 +42,7 @@ Install some useful things
 
 `# wget http://download.opensuse.org/repositories/shells:fish:release:2/CentOS_7/shells:fish:release:2.repo`
 
-`# yum install fish`
+`# yum install -y fish`
 
 `# yum install -y  jq`
 

@@ -69,17 +69,33 @@ Change the user to oracle
 
 
 ------
-Setup X11 Forwarding
+##Setup X11 Forwarding
+
+Download and Install X ming
+
+Make changes to putty
+
+![x11 forwarding](/images/x11_forwarding.PNG)
+
+If you are behind a firewall in the work environment, update the proxy settings
+
+![x11 forwarding](/images/proxy_settings1.PNG)
+
+![x11 forwarding](/images/proxy_settings2.PNG)
+
+
+Useful links to setup putty with proxy and X11
+
+https://www.vscentrum.be/client/windows/putty-proxy
+
+https://gist.github.com/Rillke/e2ceb88529aef1ae03f7f1c06c8376a2
+
 
 -------
 
 cd to database directory and run ./runInstall to install oracle. Make sure the X11 forwarding is enabled in Putty.
 
-Ueful links to setup putty with proxy and X11
 
-https://www.vscentrum.be/client/windows/putty-proxy
-
-https://gist.github.com/Rillke/e2ceb88529aef1ae03f7f1c06c8376a2
 
 
 Once the installation is complete, add the following enntries to .bash_profile in oracle home directory (/home/oracle)

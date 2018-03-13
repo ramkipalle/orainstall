@@ -69,7 +69,7 @@ Change the user to oracle
 
 
 ------
-##Setup X11 Forwarding
+#Setup X11 Forwarding
 
 Download and Install X ming
 
@@ -96,13 +96,11 @@ https://gist.github.com/Rillke/e2ceb88529aef1ae03f7f1c06c8376a2
 cd to database directory and run ./runInstall to install oracle. Make sure the X11 forwarding is enabled in Putty.
 
 
-
+----------
 
 Once the installation is complete, add the following enntries to .bash_profile in oracle home directory (/home/oracle)
 
-link https://pierreforstmanndotcom.wordpress.com/2013/06/27/how-to-install-oracle-12-1-in-silent-mode/
-
-# Oracle Settings
+### Oracle Settings
 export TMP=/tmp
 export TMPDIR=$TMP
 
@@ -115,9 +113,14 @@ export ORACLE_SID=orcl12c
 export PATH=/usr/sbin:$PATH
 export PATH=$ORACLE_HOME/bin:$PATH
 
-# Java Settings
+### Java Settings
 export JAVA_HOME=/usr/java/jdk1.8.0_162/
 export LD_LIBRARY_PATH=/u01/app/oracle/product/12.2/db_1/lib:/usr/java/jdk1.8.0_162/jre/lib/amd64/server/
+
+
+useful link https://pierreforstmanndotcom.wordpress.com/2013/06/27/how-to-install-oracle-12-1-in-silent-mode/
+
+-------------
 
 login to sqlplus
 

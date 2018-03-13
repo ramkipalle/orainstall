@@ -102,19 +102,26 @@ Once the installation is complete, add the following enntries to .bash_profile i
 
 ### Oracle Settings
 export TMP=/tmp
+
 export TMPDIR=$TMP
 
 export ORACLE_HOSTNAME=localhost.localdomain
+
 export ORACLE_UNQNAME=orcl12c
+
 export ORACLE_BASE=/u01/app/oracle
+
 export ORACLE_HOME=$ORACLE_BASE/product/12.2/db_1
+
 export ORACLE_SID=orcl12c
 
 export PATH=/usr/sbin:$PATH
+
 export PATH=$ORACLE_HOME/bin:$PATH
 
 ### Java Settings
 export JAVA_HOME=/usr/java/jdk1.8.0_162/
+
 export LD_LIBRARY_PATH=/u01/app/oracle/product/12.2/db_1/lib:/usr/java/jdk1.8.0_162/jre/lib/amd64/server/
 
 

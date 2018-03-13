@@ -67,6 +67,12 @@ Change the user to oracle
 
 `# unzip filename.zip`
 
+
+------
+Setup X11 Forwarding
+
+-------
+
 cd to database directory and run ./runInstall to install oracle. Make sure the X11 forwarding is enabled in Putty.
 
 Ueful links to setup putty with proxy and X11

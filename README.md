@@ -24,11 +24,7 @@ Change the password for user oracle
 
 `# passwd oracle`
 
-Determine the distribution and version of Linux installed
-
-`# cat /etc/oracle-release`
-
->Oracle Linux Server release 7.4
+![change password](/images/change_password.png)
 
 
 Install wget

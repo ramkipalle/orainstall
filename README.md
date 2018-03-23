@@ -232,10 +232,13 @@ SQL> select instance_name from v$instance;
  cd /tmp
  Download Oracle GG software
  unzip the file
+ ![oracle install](/images/unzip_gg.PNG)
+
+ 
  
  Build a response file (e.g. /tmp/oggcore.rsp)
  
- oracle.install.responseFileVersion=/oracle/install/rspfmt_ogginstall_response_schema_v12_1_2
+oracle.install.responseFileVersion=/oracle/install/rspfmt_ogginstall_response_schema_v12_1_2
 INSTALL_OPTION=ORA12c
 SOFTWARE_LOCATION=/u01/app/ogg
 START_MANAGER=true
@@ -247,6 +250,8 @@ UNIX_GROUP_NAME=oinstall
 Insall OGG
 
 fbo_ggs_Linux_x64_shiphome/Disk1/runInstaller -silent -nowait -responseFile /tmp/oggcore.rsp
+
+![oracle install](/images/install_gg.PNG)
 
 Press enter to get the command prompt
 

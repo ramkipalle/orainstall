@@ -257,11 +257,18 @@ Press enter to get the command prompt
 
 Check that OGG Manager is running
 
-------
+$ cd /u01/app/ogg
+
+![oracle install](/images/is_ogg_running.PNG)
 
 Configure DB for OGG
+Add TNS entry in /u01/app/oracle/product/12.2/db_1/network/admin/tnsnames.ora
 
------
+![oracle install](/images/tnsnames.PNG)
+
+Setup Supplemental logging
+
+![oracle install](/images/configure_gg.PNG)
 
 Configure OGG Extract
 

@@ -268,7 +268,7 @@ Add TNS entry in /u01/app/oracle/product/12.2/db_1/network/admin/tnsnames.ora
 
 Setup Supplemental logging
 
-![oracle install](/images/configure_gg.PNG)
+![oracle install](/images/Configure_gg.PNG)
 
 Configure OGG Extract
 

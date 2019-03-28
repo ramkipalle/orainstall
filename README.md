@@ -217,6 +217,8 @@ restart the VM
 
 link https://rmoff.net/2017/11/21/installing-oracle-goldengate-for-big-data-12-3-1-with-kafka-connect-and-confluent-platform/
 
+The above link is not working. Use this https://rmoff.net/2017/11/21/installing-oracle-goldengate-for-big-data-12.3.1-with-kafka-connect-and-confluent-platform/
+
 Chek Oracle versions Etc..
 
 [oracle@localhost ~]$ sqlplus SYS/oracle as sysdba
